@@ -1,0 +1,50 @@
+#starshine {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+}    
+    
+.shine {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    z-index: 2;
+    color: white;
+    animation: glitter 6s linear 0s infinite normal;
+    -webkit-animation: glitter 6s linear 0s infinite normal;
+    -moz-animation: glitter 8s linear 0s infinite normal;
+    -ms-animation: glitter 8s linear 0s infinite normal;
+    -o-animation: glitter 8s linear 0s infinite normal;
+}
+
+.shine.small {
+    width: 20px;
+    height: 20px;
+}
+
+.shine.medium {
+    width: 30px;
+    height: 30px;
+}
+
+/*CSS3 keyframes for glittering effect*/
+@-webkit-keyframes glitter {
+    0% {
+    -webkit-transform: scale(0.3) rotate(0deg);
+    }
+    25% {
+    -webkit-transform: scale(1) rotate(360deg);
+    }
+    50% {
+    -webkit-transform: scale(0.3) rotate(720deg);
+    }
+    100% {
+    -webkit-transform: scale(0.3) rotate(0deg);
+    }
+}

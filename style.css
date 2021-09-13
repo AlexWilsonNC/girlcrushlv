@@ -1,4 +1,92 @@
 * {
     margin: 0px;
     padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    background: url(assets/marx-ilagan.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    /* max-height: 100vh;
+    overflow: hidden; */
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+#nav-main {
+    width: 100%;
+    display: inline-block;
+    position: sticky;
+    top: 0;
+}
+
+#nav-main p {
+    font-size: 58px;
+    margin: 35px 0px 0px 75px;
+}
+
+#nav-main a {
+    float: right;
+    position: relative;
+    top: -50px;
+    right: 45px;
+    color: white;
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+#nav-main a:hover {
+    color: yellow;
+}
+
+#home-intro {
+    width: 900px;
+    height: 500px;
+    top: 0;
+    bottom: 0;
+    left: 15%;
+    right: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home-intro h1 {
+    font-size: 52px;
+    text-align: center;
+    font-family: Georgia, serif, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#home-intro p {
+    font-family: 'Dancing Script', 'cursive';
+    font-size: 32px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#hr1 {
+    width: 250px;
+    position: relative;
+    margin: -20px 0px 0px 0px;
+    border: 0.5px solid white;
+}
+
+#hr2 {
+    width: 250px;
+    position: relative;
+    margin: 0px 0px 0px 720px;
+    border: 0.5px solid white;
+}
+
+#services {
+    margin-top: 100%;
+    width: 1125px;
+    height: 700px;
 }
