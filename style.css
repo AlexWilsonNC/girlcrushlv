@@ -4,24 +4,34 @@
     text-decoration: none;
 }
 
+:root {
+    --yellow: rgb(255, 255, 97);
+}
+
 body {
-    background: url(assets/marx-ilagan.jpg) no-repeat center center fixed;
+    background: url(assets/white-bg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
-    -moz-background-size: cover; 
+    -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
-    color: white;
-    /* max-height: 100vh;
-    overflow: hidden; */
+}
+
+#container {
+    background: url(assets/marx-ilagan.jpg) no-repeat;
+    border-bottom: 2px solid black;
+    background-size: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 #nav-main {
     width: 100%;
     display: inline-block;
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0; */
 }
 
 #nav-main p {
@@ -40,7 +50,7 @@ body {
 }
 
 #nav-main a:hover {
-    color: yellow;
+    color: var(--yellow);
 }
 
 #home-intro {
@@ -85,8 +95,76 @@ body {
     border: 0.5px solid white;
 }
 
-#services {
-    margin-top: 100%;
-    width: 1125px;
-    height: 700px;
+#home-down {
+    font-size: 48px;
+    position: relative;
+    left: 50%;
+    color: white;
+}
+
+#home-down:hover {
+    color: var(--yellow);
+    transform: scale(1.04);
+}
+
+#container-about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#explanation {
+    width: 60.8%;
+    height: 250px;
+    margin: 45px 0 0 25px;
+    padding: 50px;
+}
+
+#explanation h2 {
+    position: relative;
+    top: -50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+#explanation p {
+    line-height: 55px;
+}
+
+#side-image-home {
+    width: 27%;
+    margin-right: 25px;
+}
+
+#map {
+    width: 67.4%;
+    height: 223px;
+    margin-left: 25px;
+    position: relative;
+    top: -225px;
+    background-image: url(assets/map-ss.JPG);
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+footer {
+    height: 76px;
+    background-color: aquamarine;
+    text-align: center;
+    line-height: 76px;
+}
+
+#bottom-boxes {
+    display: flex;
+    justify-content: space-around;
+    /* position: relative;
+    top: -200px; */
+}
+
+.box {
+    height: 260px;
+    width: 425px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: white;
 }
