@@ -1,0 +1,130 @@
+#container img {
+    max-width: 100%;
+    z-index: -50;
+}
+
+#container h1 {
+    font-size: 32px;
+    color: orange;
+    z-index: 5;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    margin: -500px 0px 0px 125px;
+}
+
+#container h2 {
+    font-size: 32px;
+    color: orange;
+    z-index: 5;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    margin: -650px 0px 0px 1000px;
+}
+
+#up-arrow {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 100;
+    width: 50px;
+    opacity: 0.5;
+    transition: ease 0.3s;
+}
+
+#up-arrow:hover {
+    opacity: 1;
+}
+
+#sites1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px;
+    flex-wrap: wrap;
+}
+
+#destinations img {
+    width: 100%;
+}
+
+#sites2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px;
+    flex-wrap: wrap;
+}
+
+#something img {
+    width: 100%;
+}
+
+#sites3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 380px;
+    width: 625px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.card p {
+    font-size: 60px;
+    color: orange;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 100%;
+    opacity: 0;
+    transition: ease 0.6s;
+    text-align: center;
+}
+
+.card p:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.card img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#yellowstone {
+    background: url(../assets/yellowstone.jpg);
+}
+#sequoia {
+    background: url(../assets/sequoia.jpg);
+}
+#grand-canyon {
+    background: url(../assets/grand-canyon.jpg);
+}
+#zion {
+    background: url(../assets/zion.jpg);
+}
+#bryce {
+    background: url(../assets/bryce.jpg);
+}
+#arches {
+    background: url(../assets/arches.jpg);
+}
+#yosemite {
+    background: url(../assets/yosemite.jpg);
+}
+#teton {
+    background: url(../assets/teton.jpg);
+}
+#glacier {
+    background: url(../assets/glacier.jpg);
+}
+#rocky-mtn {
+    background: url(../assets/rocky-mtn.jpg);
+}

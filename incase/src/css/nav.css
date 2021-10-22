@@ -1,0 +1,42 @@
+#nav {
+    height: 50px;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 0px 0px 2px 0px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 17px 25px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 10;
+}
+
+#leftnav {
+    margin-left: 50px;
+}
+
+#camper {
+    width: 0px;
+}
+
+#rightnav {
+    margin: 15px 50px 0px 0px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#rightnav a {
+    margin-left: 25px;
+    font-size: 22px;
+    background: linear-gradient(to right, orange, orange 50%, white 50%);
+    font-weight: 600;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 0.4s ease;
+}
+
+#rightnav a:hover {
+    background-position: 0 100%;
+}
